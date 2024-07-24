@@ -1,0 +1,15 @@
+{
+  "name": "my-vercel-app",
+  "version": "1.0.0",
+  "description": "A Vercel app that uses nodemailer for SMTP communication.",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "nodemailer": "^6.6.3"
+  },
+  "author": "hurtice",
+  "license": "MIT"
+}
